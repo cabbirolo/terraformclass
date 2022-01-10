@@ -14,7 +14,7 @@ provider "azurerm" {
 
 
 variable "prefix" {
-  default = "tfvmex"
+  default = "tf-carlos"
 }
 
 resource "azurerm_resource_group" "main" {
